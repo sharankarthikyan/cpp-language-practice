@@ -33,6 +33,6 @@ int main() {
     cout<<*(scores_ptr + 0)<<endl; // scores_ptr pointes to scores address + 0 bytes
     cout<<*(scores_ptr + 0)<<endl; // scores_ptr pointes to scores address + 4 bytes
     cout<<*(scores_ptr + 0)<<endl; // scores_ptr pointes to scores address + 8 bytes
-
+    
     return 0;
 }
