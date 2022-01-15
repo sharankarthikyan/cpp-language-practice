@@ -53,6 +53,7 @@ void displayPlayer(
                 // object which is calling. Finally, In this line we are calling
                 // copy constructor and Got a copied object. This object gets
                 // deleted when this local scope ends.
+                // This is shallow copy by the way.
   cout << "Name: " << p.getName() << endl;
   cout << "Health: " << p.getHealth() << endl;
   cout << "XP: " << p.getXp() << endl;

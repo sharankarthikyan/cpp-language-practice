@@ -42,6 +42,7 @@ int main() { // This shallow copy will cause an error.
   displayShallow(obj1);
 
   Shallow obj2{obj1};
+  cout << &obj1 << " " << &obj2 << endl;
   obj2.setDataValue(1000);
 
   return 0;
