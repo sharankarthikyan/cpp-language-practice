@@ -8,7 +8,7 @@ void display(
     const std::vector<int> &vec) { // display any vector using range based loop
   std::cout << "[ ";
 
-  for (auto const &i : vec) {
+  for (auto const i : vec) {
     std::cout << i << " ";
   }
 
