@@ -1,4 +1,5 @@
-// set doesn't allow duplicate elements in a set.
+// set doesn't allow duplicate elements in a set. But, some other set allow
+// duplicate elements.
 #include <algorithm>
 #include <iostream>
 #include <set>
