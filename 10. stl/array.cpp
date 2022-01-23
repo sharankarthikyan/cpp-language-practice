@@ -15,7 +15,8 @@ void display(const std::array<int, 5> &arr) {
 
 void test1() {
   std::cout << "==========================================" << std::endl;
-  std::array<int, 5> arr1{1, 2, 3, 4, 5};
+  std::array<int, 5> arr1{1, 2, 3, 4,
+                          5}; // we need to specify the size of an array.
   std::array<int, 5> arr2;
 
   display(arr1);
