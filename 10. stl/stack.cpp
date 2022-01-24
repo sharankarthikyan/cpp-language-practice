@@ -1,3 +1,4 @@
+// stack doesn't support iterators
 #include <algorithm>
 #include <iostream>
 #include <list>
